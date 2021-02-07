@@ -118,3 +118,5 @@ plot(
 )
 lines(distance, fitted(fit_pw))
 axis(4)
+# EOF
+
