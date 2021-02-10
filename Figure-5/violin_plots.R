@@ -4,7 +4,7 @@ setwd("")
 #
 # vioplotが無ければ，インストールして起動
 if(!require(vioplot)){
-  install.packages("vioplot")
+  install.packages("vioplot", dependencies = TRUE)
   library("vioplot")
 }
 #
